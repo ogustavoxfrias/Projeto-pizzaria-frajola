@@ -1,0 +1,103 @@
+/*Conteudo*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixa_conteudo{
+    width: 1200px;
+    min-height: 1200px;
+    height: auto;
+    background-color: #d9d9d9;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 120px;
+}
+
+/*Titulo da Pagina*/
+
+#titulo{
+    width: auto;
+    height: 50px;
+    background-color:#006600;
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+    font-size: 30px;
+    font-family: Comic Sans Ms;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;   
+}
+
+/*Titulo conteudo*/
+#nossa_historia_ttulo{
+    width: 250px;
+    height: 60px;
+    background-color: ;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+/* sobre a empresa texto*/
+#texto_sobre_nos{
+    width: 900px;
+    min-height: 400px;
+    height: auto;
+    background-color: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-family: Comic Sans Ms;
+}
+/*Imagem empresa*/
+#imagem_sobre_app{
+    width: 600px;
+    height: 400px;
+    background-color: ;
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+#imagem_sobre_app:hover{
+    transform: translatey(-5px);
+    cursor: pointer;
+    z-index: 999;
+}
+
+/*sobre a empresa texto2*/
+
+#texto_app{
+    width: 510px;
+    height: 400px;
+    background-color: ;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Comic Sans Ms;
+    text-align: center;
+}
+
+#titulo_app{
+    width: 300px;
+    height: 60px;
+    background-color: ;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px; 
+    font-family: fantasy;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+

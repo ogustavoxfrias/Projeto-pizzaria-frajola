@@ -1,0 +1,25 @@
+*`{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixa_conteudo{
+    width: 1200px;
+    height: 1100px;
+    background-color:;
+    box-sizing: border-box;
+    padding-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-image: url(../imagem/pizza_body.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+textarea{
+    resize: none;
+}

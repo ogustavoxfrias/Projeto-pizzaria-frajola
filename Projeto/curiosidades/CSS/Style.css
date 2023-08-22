@@ -1,0 +1,82 @@
+/*Conteudo*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixa_conteudo{
+    width: 1200px;
+    min-height: 1200px;
+    height: 1600px;
+    background-color: #d9d9d9;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+/* Titulo Pagina*/
+#titulo{
+    width: auto;
+    height: 50px;
+    background-color:#006600;
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+    font-size: 30px;
+    font-family: Comic Sans Ms;
+    color: white;
+    border-radius: 20px;
+    margin-top: 5px;   
+}
+/*Imagem Principal*/
+#imagem_curiosidades{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    background-image: url(../imagem/pizza_curiosidades3.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+/*texto_curiosidades*/
+.texto_curiosidades{
+    width:600px;
+    min-height: 300px;
+    max-height: 300px;
+    background-color: ;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: Comic Sans Ms;
+    box-sizing: border-box;
+    padding-top: 20px;
+    float: left;
+    overflow: hidden;
+}
+/*imagem curiosidades*/
+.imagem_conteudo_curiosidades{
+    width: 550px;
+    height: 300px;
+    background-color: ; 
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/*texto_curiosidades*/
+#texto_curiosidades2{
+    width:600px;
+    height: 300px;
+    background-color: ;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: Comic Sans Ms;
+    box-sizing: border-box;
+    padding-top: 60px;
+    float: left;
+    overflow: hidden;
+}

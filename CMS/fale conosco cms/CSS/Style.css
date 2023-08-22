@@ -1,0 +1,169 @@
+#conteudoFaleConosco{
+    width: 1100px;
+    min-height: 200px;
+    height: auto;
+    background-color:;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+#caixa_filtro{
+    width: inherit;
+    height: 100px;
+    background-color: #006600;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+    border-bottom: solid 5px black;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#filtro{
+    width: 290px;
+    height: 50px;
+    background-color: ;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#filtro_botao{
+    width: 100px;
+    height: 50px;
+    background-color: ;
+    float: left;
+    margin-left: 10px;
+    box-sizing: border-box;
+    
+}
+
+#btnFiltrar{
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    font-family: Comic Sans Ms;
+}
+
+#caixa_informacoes{
+    width: inherit;
+    min-height: 200px;
+    height: auto;
+    background-color: ;
+}
+
+#cabecalho_informacoes{
+    width: inherit;
+    min-height: 200px;
+    height: auto;
+    background-color: #006600;
+}
+
+#titulo{
+    width: 250px;
+    height: 60px;
+    background-color:;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-family: Comic Sans Ms;
+    font-size: 25px;
+    color: white;
+}
+
+#caixa_itens{
+    width: inherit;
+    height: 70px;
+    background-color: ;
+     box-sizing: border-box;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.itens_titulo{
+    width: 200px;
+    height: 50px;
+    background-color:#990000 ;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-left: 15px;
+    float: left;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+#resultado_itens{
+    width: inherit;
+    min-height: 80px;
+    height: auto;
+    background-color:  #d9d9d9;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: black;
+}
+
+.itens{
+    width: 200px;
+    height: 50px;
+    background-color: ;
+    margin-left: 15px;
+    float: left;
+    border: solid 1px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.img_opcoes{
+    width:  80px;
+    height: inherit;
+    background-color: ;
+    float: left;
+    margin-left: 13px;
+    
+}
+
+#not_border{
+  border: none;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 999;
+    position: fixed;
+    display: none;
+}
+
+#modal{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#modal_dados{
+    min-width: 100px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#fechar:hover{
+    cursor: pointer;
+}

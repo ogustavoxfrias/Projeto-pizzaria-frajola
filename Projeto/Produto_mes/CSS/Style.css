@@ -1,0 +1,149 @@
+/*Conteudo*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#caixa_conteudo{
+    width: 1200px;
+    min-height: 1200px;
+    height: auto;
+    background-color: ;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding-top: 130px;
+}
+
+/*Titulo Pagina*/
+#titulo_pagina{
+    width: 100%;
+    height: 50px;
+    background-color: #006600;
+    font-size: 30px;
+    font-family: Comic Sans Ms;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0px;
+    border-radius: 20px;
+}
+/* itens produtos do mes*/
+.conteudo_prod_mes{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    background-color: ;
+    margin-top: 30px;
+}
+
+.imagem_produto_mes{
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+    float: left;
+    border-radius: 20px;
+    background-image: url(../imagem/pizza_doce.jpeg);
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.imagem_produto_mes:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.caixa_texto{
+    width: 600px;
+    height: 400px;
+    background-color: ;
+    float: left;
+}
+
+.titulo_produto{
+    width: 400px;
+    height: 50px;
+    background-color: #006600;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.texto_produto{
+    width: 400px;
+    height: 300px;
+    background-color: #990000;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.texto_produto:hover{
+    transform: translateY(-5px);
+    background-color:#660000;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+p{
+    font-family: Comic Sans Ms;
+    color: white;
+}
+
+.preco_produto{
+    width: 200px;
+    height: 150px;
+    background-color:#006600 ;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 10px;
+    border-radius: 250px;
+    float: left;
+    color: white;
+}
+
+.preco_produto:hover{
+    background-color: #004d00;
+}
+
+.preco{
+    font-size: 70px;
+    color: white;
+    font-family: fantasy;
+}
+.ingred_pizza{
+    width: 150px;
+    height: 150px;
+    background-color: ;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*Alerta para o usuario*/
+#alerta_ao_cliente{
+    width: 350px;
+    height: 50px;
+    background-color: ;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: black;
+    font-family: fantasy;
+}

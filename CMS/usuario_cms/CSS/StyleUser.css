@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pag_adm{
+    width: 400px;
+    height: 150px;
+    background-color:pink;
+    margin-left: 135px;
+    float: left;
+}

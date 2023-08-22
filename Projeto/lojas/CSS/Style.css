@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Conteudo */
+
+#caixa_conteudo{
+    width: 1200px;
+    min-height: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 130px;
+    background-color: ;
+}
+
+#titulo_pagina{
+    width: inherit;
+    height: 50px;
+    background-color: #006600;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Comic Sans Ms;
+    color: white;
+}
+
+#caixa_lojas{
+    width: inherit;
+    height: 800px;
+    margin-top: 30px;
+    background-color: ;
+}
+
+.caixa_conteudo_das_lojas{
+    width: inherit;
+    min-height: 200px;
+    height: auto;
+    background-color:#8c8c8c ;
+    margin-top: 20px;
+    color: black;
+    border-radius: 20px;
+}
+
+.caixa_conteudo_das_lojas:hover{
+    background-color: #999999;
+    transition: 0.5s;
+}
+
+.caixa_imagem_das_lojas{
+    width: 300px;
+    height: inherit;
+    background-color: ;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.caixa_imagem_das_lojas:hover{
+    cursor: pointer;
+}
+
+.caixa_endereco{
+    width: 900px;
+    min-height: 200px;
+    height: auto;
+    background-color: ;
+    float: left;
+}
+
+.caixa_titulo_nome{
+    width: 250px;
+    min-height: 50px;
+    height: auto;
+    background-color: #006600 ;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: Comic Sans Ms;
+    color: white;
+}
+
+.texto_end{
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+    background-color: ;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: Comic Sans Ms;
+    float: left;
+}
+
+.caixa_texto_hours{
+    width: 300px;
+    min-height: 100px;
+    height: auto;
+    background-color: #006600;
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Comic Sans Ms;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.caixa_texto_hours:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
